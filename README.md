@@ -1,5 +1,5 @@
 # TurboBFS
-TurboBFS is a highly scalable GPU-based set of top-down and bottom-up BFS algorithms in the language of linear algebra. These algorithms are applicable to unweighted, directed and undirected graphs represented by sparse adjacency matrices in the Compressed Sparse Column (CSC) format, and the transpose of the Coordinate (COO) format, which were equally applicable to direct and undirected graphs. 
+TurboBFS is a highly scalable GPU-based set of top-down and bottom-up BFS algorithms in the language of linear algebra. These algorithms are applicable to unweighted, directed and undirected graphs represented by sparse adjacency matrices in the Compressed Sparse Column (CSC) format, and the transpose (COOC) of the Coordinate (COO) format. 
 
 The following BFS algorithms were implemented in TurboBFS: 
 
