@@ -7,7 +7,7 @@ A highly scalable GPU-based set of top-down and bottom-up BFS algorithms in the 
  
 The TurboBFS codes use sparse adjacency matrices selected from the SuiteSparse Matrix Collection in the Matrix Market format. 
 
-More details of the design, implementation and experimental results obatined with the TurboBFS algorithms are given in our paper cited below.
+More details of the design, implementation and experimental results obtained with the TurboBFS algorithms are given in our paper cited below.
 # Prerequisites
 This software has been tested on the following dependences:
 * CUDA 10.1
