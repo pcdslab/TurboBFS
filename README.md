@@ -7,13 +7,13 @@ A highly scalable GPU-based set of top-down and bottom-up BFS algorithms in the 
 # Prerequisites
 This software has been tested on the following dependences:
 * CUDA 10.1
-* gcc 5.4.0 
-* Ubuntu 16.04.5
+* gcc 8.4.0 
+* Ubuntu 16.04.7
 
 # Install
 Series of instructions to compile and run your code
 
-1. Download the software
+1. Download the software, there is a self-contained folder for each BFS algorirthm
 
 git clone https://github.com/pcdslab/TurboBFS.git
 
