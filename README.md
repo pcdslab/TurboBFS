@@ -19,8 +19,11 @@ git clone https://github.com/pcdslab/TurboBFS.git
 
 2. Compile the code with the Makefile. Please set the library and include directories paths on the Makefile available for your particular machine
 
-$ cd GPU-SFFT
+$ cd TurboBFS
 
 $ make
 # Run
+1. Update the path of the graphData folder in the corresponding .sh file
+2. Add permision for the .sh file, example: chmod +x run_bfstdcsc.sh
+3. run the code with: ./run_bfstdcsc.sh
 
