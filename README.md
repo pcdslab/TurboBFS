@@ -13,19 +13,19 @@ This software has been tested on the following dependences:
 * Ubuntu 16.04.7
 
 # Install
-Series of instructions to compile and run your code
+Series of instructions to install and compile the code:
 
-1. Download the software, there is a self-contained folder for each BFS algorirthm. The folder graphData contains some examples of Matrix Market files. 
+1. Download the software, there is a self-contained folder for each BFS algorithm. The folder graphData contains some examples of Matrix Market files. 
 
 git clone https://github.com/pcdslab/TurboBFS.git
 
-2. Compile the code with the Makefile. Please set the library and include directories paths on the Makefile available for your particular machine
+2. Compile the code with the Makefile. Please set the library and include directories paths on the Makefile available for your particular machine. Example
 
-$ cd TurboBFS
+$ cd TurboBFS/TurboBFS_CSC_TD
 
 $ make
 # Run
 1. Update the path of the graphData folder in the corresponding .sh file
 2. Add permision for the .sh file, example: chmod +x run_bfstdcsc.sh
-3. run the code with: ./run_bfstdcsc.sh
+3. run the experiments with: ./run_bfstdcsc.sh
 
