@@ -4,6 +4,8 @@ A highly scalable GPU-based set of top-down and bottom-up BFS algorithms in the 
 2. TurboBFS_CSC_BU:    bottom-up BFS for graphs represented by sparse adjacency matrices in the CSC format.
 3. TurboBFS_CSC_TD:    top-down BFS for graphs represented by sparse adjacency matrices in the CSC format.
 4. TurboBFS_CSC_TDBU:  top-down/bootoom-up BFS for graphs represented by sparse adjacency matrices in the CSC format.
+
+The TurboBFS codes use sparse adjacency matrices selected from the SuiteSparse Matrix Collection in the Matrix Market format. 
 # Prerequisites
 This software has been tested on the following dependences:
 * CUDA 10.1
@@ -13,7 +15,7 @@ This software has been tested on the following dependences:
 # Install
 Series of instructions to compile and run your code
 
-1. Download the software, there is a self-contained folder for each BFS algorirthm
+1. Download the software, there is a self-contained folder for each BFS algorirthm. The folder graphData contains some examples of Matrix Market files. 
 
 git clone https://github.com/pcdslab/TurboBFS.git
 
