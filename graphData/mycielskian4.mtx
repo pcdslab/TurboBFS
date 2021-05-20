@@ -1,0 +1,57 @@
+%%MatrixMarket matrix coordinate pattern symmetric
+%-------------------------------------------------------------------------------
+% SuiteSparse Matrix Collection, Tim Davis
+% https://sparse.tamu.edu/Mycielski/mycielskian4
+% name: Mycielski/mycielskian4
+% [Mycielskian graph M4]
+% id: 2760
+% date: 2018
+% author: J. Mycielski
+% ed: S. Kolodziej
+% fields: title A name id date author ed kind notes
+% kind: undirected graph
+%-------------------------------------------------------------------------------
+% notes:
+% Mycielskian graph M4.                                                   
+%                                                                         
+% The Mycielskian graph sequence generates graphs that are triangle-free  
+% and with a known chromatic number (i.e. the minimum number of colors    
+% required to color the vertices of the graph).                           
+%                                                                         
+% Known properties of this graph (M4) include the following:              
+%                                                                         
+%  * M4 has a minimum chromatic number of 4.                              
+%  * M4 is triangle-free (i.e. no cycles of length 3 exist).              
+%  * M4 has a Hamiltonian cycle.                                          
+%  * M4 has a clique number of 2.                                         
+%  * M4 is factor-critical, meaning every subgraph of |V|-1 vertices has  
+%    a perfect matching.                                                  
+%                                                                         
+% Mycielski graphs were first described by Jan Mycielski in the following 
+% publication:                                                            
+%                                                                         
+%     Mycielski, J., 1955. Sur le coloriage des graphes. Colloq. Math.,   
+%     3: 161-162.                                                         
+%                                                                         
+%-------------------------------------------------------------------------------
+11 11 20
+2 1
+4 1
+7 1
+9 1
+3 2
+6 2
+8 2
+5 3
+7 3
+10 3
+5 4
+6 4
+10 4
+8 5
+9 5
+11 6
+11 7
+11 8
+11 9
+11 10
